@@ -137,9 +137,6 @@ USER nobody
 
 ENV HOME=/app
 
-# CMD ["./bin/my_app eval", "MyApp.Release.migrate"]
-# CMD ["./bin/my_app", "start"]
-
 ENTRYPOINT ["sh", "./entrypoint.sh"]
 ```
 
