@@ -7,12 +7,12 @@ This is kind of one of those backwards trilogy where the first episode is actual
 
 **Part 1:**
 
-Prepare app for release
+Prepare app for release (comments removed for brevity)
 
 
 1. Change `config/prod.secret.exs` to `config/releases.exs` with these contents adjusted to your app:
 
-**config/releases.exs** (comments removed for brevity)
+**config/releases.exs** 
 ```elixir
 import Config
 
@@ -40,6 +40,7 @@ config :my_app, MyAppWeb.Endpoint, server: true
 ```
 
 2. Change `config/prod.exs` to look like this:
+
 **my_app/config/prod.exs**
 ```
 use Mix.Config
