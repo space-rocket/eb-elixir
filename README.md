@@ -1,5 +1,10 @@
 # Elastic Beanstalk Elixir
 
+Prereq:
+Have and Elastic Beanstalk Multicontainer Environment (see future blog posts)
+
+This is kind of one of those backwards trilogy where the first episode is actually the 2nd episode. 
+
 **Part 1:**
 
 Prepare app for release
