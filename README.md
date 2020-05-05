@@ -30,11 +30,6 @@ Prepare app for release (comments removed for brevity)
 # remember to add this file to your .gitignore.
 import Config
 
-# config :my_app, MyApp.Repo,
-#   # ssl: true,
-#   url: database_url,
-#   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
-
 config :my_app, MyApp.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: System.get_env("RDS_USERNAME"),
