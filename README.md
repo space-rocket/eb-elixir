@@ -222,6 +222,7 @@ Also don't forget to put in a `.dockerignore` file to cut down on bloat.
 /_build
 ecl_Crash.dump
 /node_modules
+/assets/node_modules
 /priv/static/*
 /uploads/files/*
 .git
