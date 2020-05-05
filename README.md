@@ -5,6 +5,16 @@ Have and Elastic Beanstalk Multicontainer Environment (see future blog posts)
 
 This is kind of one of those backwards trilogy where the first episode is actually the 2nd episode. 
 
+We will be adding or modifying these files:
+
+1. Change `config/prod.secret.exs` to `config/releases.exs`
+2. Modify `config/prod.exs`
+3. Add `lib/my_app_web/release.ex`
+4. Add `Dockerfile`
+5. Add `.dockerignore`
+6. Add `entrypoint.sh`
+7. Add `buildspec.yml`
+
 **Part 1:**
 
 Prepare app for release (comments removed for brevity)
