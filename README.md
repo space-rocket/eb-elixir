@@ -48,6 +48,7 @@ secret_key_base =
 
 config :my_app, MyAppWeb.Endpoint,
   http: [:inet6, port: String.to_integer(System.get_env("PORT") || "4000")],
+  url: [scheme: "https", host: System.get_env("HOST"), port: 443],
   secret_key_base: secret_key_base
 
 # ## Using releases (Elixir v1.9+)
